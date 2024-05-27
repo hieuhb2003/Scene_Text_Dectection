@@ -223,6 +223,11 @@ def save_data(data, save_dir):
 
 dataset_dir = 'datasets/SceneTrialTrain'
 img_paths, img_sizes, img_labels, bboxes = extract_data_from_xml(dataset_dir)
+
+# Thực hiện lời gọi hàm split_bounding_boxes()
+save_dir = 'datasets/ocr_dataset'
+split_bounding_boxes(img_paths, img_labels, bboxes, save_dir)
+
 # Định nghĩa class
 class_labels = ['text']
 
