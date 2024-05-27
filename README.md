@@ -13,4 +13,4 @@ Sử dụng model CRNN dựa trên Resnet101 để nhận diện văn bản tron
 
 ## Hạn chế
 - Các từ dự đoán thường bị lặp lại, việc này trong project tôi đã sử dụng thư viện SpellChecker để hạn chế được một phần.
-- Chưa thiết kế thành một ứng dụng hoàn chỉnh, chỉ là một demo, pineline của project nằm trong file Pineline.ipynb. Sẽ cố gắng hoàn thiện thành 1 desktop app hoặc 1 basic website.
+- Chưa thiết kế thành một ứng dụng hoàn chỉnh, chỉ là một demo, pineline của project và các kết quả hiện có nằm trong file Pineline.ipynb. Sẽ cố gắng hoàn thiện thành 1 desktop app hoặc 1 basic website.
