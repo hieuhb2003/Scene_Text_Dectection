@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-
+#sss
 # Load a model
 model = YOLO('yolov8s.yaml').load('yolov8s.pt')
 
